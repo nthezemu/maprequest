@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "User": 2,
+    "Comment": 2
+  },
+  "models": {
+    "User": {
+      "1": "{\"first_name\":\"blessings\",\"last_name\":\"Kamanga\",\"email\":\"blessnkamanga@gmail.com\",\"username\":\"blessings\",\"password\":\"password1\",\"country\":\"Malawi\",\"user_type\":1,\"id\":1}"
+    },
+    "Comment": {}
+  }
+}
