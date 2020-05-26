@@ -12,6 +12,11 @@ export class MapRequest extends Entity {
   id?: number;
 
   @property({
+    type: 'string',
+  })
+  uuid?: string;
+
+  @property({
     type: 'number',
   })
   time_type?: number;
@@ -79,12 +84,22 @@ export class MapRequest extends Entity {
   @property({
     type: 'string',
   })
-  area_of_interest?: string;
+  existing_map_aoi?: string;
 
   @property({
     type: 'string',
   })
-  aoi_details?: string;
+  existing_map_aoi_details?: string;
+
+  @property({
+    type: 'string',
+  })
+  new_map_aoi?: string;
+
+  @property({
+    type: 'string',
+  })
+  new_map_aoi_details?: string;
 
   @property({
     type: 'string',

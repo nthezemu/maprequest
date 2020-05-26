@@ -1,12 +1,17 @@
 {
   "ids": {
-    "User": 2,
-    "Comment": 2
+    "User": 3,
+    "Comment": 2,
+    "MapRequest": 2
   },
   "models": {
     "User": {
-      "1": "{\"first_name\":\"blessings\",\"last_name\":\"Kamanga\",\"email\":\"blessnkamanga@gmail.com\",\"username\":\"blessings\",\"password\":\"password1\",\"country\":\"Malawi\",\"user_type\":1,\"id\":1}"
+      "1": "{\"first_name\":\"blessings\",\"last_name\":\"Kamanga\",\"email\":\"blessnkamanga@gmail.com\",\"username\":\"blessings\",\"password\":\"password1\",\"country\":\"Malawi\",\"user_type\":1,\"id\":1}",
+      "2": "{\"first_name\":\"Simon\",\"last_name\":\"Ndira\",\"email\":\"sndira@gmail.com\",\"username\":\"sndira\",\"password\":\"Compellig20!\",\"country\":\"Germany\",\"user_type\":1,\"id\":2}"
     },
-    "Comment": {}
+    "Comment": {},
+    "MapRequest": {
+      "1": "{\"time_type\":0,\"requestor_name\":\"Blessings\",\"requestor_phone\":\"0884578430\",\"requestor_email\":\"blessnkamanga@gmail.com\",\"organisation\":\"Kuunika\",\"funding_agency\":\"BMGF\",\"project_code\":\"KU004\",\"country\":\"Malawi\",\"region\":\"Central\",\"district\":\"Lilongwe\",\"details\":\"Map of Lilongwe Kaliyeka\",\"name_of_existing_map\":\"Kaliyeka\",\"map_url\":\"maprequest.com\",\"area_of_interest\":\"kaliyeka\",\"aoi_details\":\"kaliyeka centreal\",\"geolocated_dataset_path\":\"Path is here\",\"date_requested\":\"2020-05-25T12:14:49.266Z\",\"printing_format\":0,\"delivery_format\":0,\"confidentiality_level\":0,\"available_thru_maha\":0,\"status\":0,\"id\":1}"
+    }
   }
 }
