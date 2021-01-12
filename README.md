@@ -17,4 +17,4 @@ Run npm run build
 Run npm run migrate
 Install pm2 by running npm install pm2 -g
 Run the backend by running the command pm2 start index.js 
-You should be able to connect the front end of the maprequest to this backend. Alternatively you should be able to access the backend itself on http(s)://[ip or domani name to your server]:3000/exploer
+You should be able to connect the front end of the maprequest to this backend. Alternatively you should be able to access the backend itself on http(s)://[ip or domani name to your server]:3000/exploler
